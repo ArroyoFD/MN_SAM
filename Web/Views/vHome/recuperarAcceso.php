@@ -37,11 +37,9 @@ mostrarCss();
               <div class="auth-cover-wrapper bg-primary-100">
                 <div class="auth-cover">
                   <div class="title text-center">
-                    <h1 class="text-primary mb-10">Get Started</h1>
+                    <h1 class="text-primary mb-10">Bienvenid@</h1>
                     <p class="text-medium">
-                      Start creating the best possible user experience
-                      <br class="d-sm-block" />
-                      for you customers.
+                      Enviaremos un correo electronico
                     </p>
                   </div>
                   <div class="cover-image">
@@ -57,11 +55,7 @@ mostrarCss();
             <div class="col-lg-6">
               <div class="signup-wrapper">
                 <div class="form-wrapper">
-                  <h6 class="mb-15">Crear Cuenta</h6>
-                  <p class="text-sm mb-25">
-                    Start creating the best possible user experience for you
-                    customers.
-                  </p>
+                  <h6 class="mb-15">Recuperar Acceso</h6>
                   <form action="#">
                     <div class="row">
                       <div class="col-12">
@@ -71,19 +65,7 @@ mostrarCss();
                         </div>
                       </div>
                       <!-- end col -->
-                      <div class="col-12">
-                        <div class="input-style-1">
-                          <label>Nombre</label>
-                          <input type="email" placeholder="Nombre" />
-                        </div>
-                      </div>
-                      <!-- end col -->
-                      <div class="col-12">
-                        <div class="input-style-1">
-                          <label>Contraseña</label>
-                          <input type="password" placeholder="Contraseña" />
-                        </div>
-                      </div>
+                    
                       <!-- end col -->
                       <!-- end col -->
                       <div class="col-12">

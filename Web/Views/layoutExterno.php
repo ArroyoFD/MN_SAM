@@ -41,7 +41,7 @@ function mostrarHeader()
               <div class="header-left d-flex align-items-center">
                 <div class="menu-toggle-btn mr-15">
                   <div class="navbar-logo">
-                    <a href="index.html">
+                    <a href="login.php">
                     <img src="../assets/images/logo/logo.svg" alt="logo" />
                     </a>
                 </div>
