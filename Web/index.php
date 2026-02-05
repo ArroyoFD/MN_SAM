@@ -1,6 +1,6 @@
 <?php
 
-    header("Location: Views/vHome/Inicio.php");
+    header("Location: Views/vHome/login.php");
     exit;
 
 ?>
