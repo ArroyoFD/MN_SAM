@@ -50,6 +50,11 @@ mostrarCss();
                                 </div>
                                 <!-- end col -->
                                 <div class="col-lg-6">
+                                    <?php
+                                    if(isset($_POST["Mensaje"])){
+                                        echo $_POST["Mensaje"];
+                                    }
+                                    ?>
                                     <div class="signin-wrapper">
                                         <div class="form-wrapper">
                                             <h6 class="mb-15">Iniciar Sesión</h6>
@@ -79,7 +84,7 @@ mostrarCss();
                                                     <!-- end col -->
                                                     <div class="col-12">
                                                         <div class="button-group d-flex justify-content-center flex-wrap">
-                                                            <button class="main-btn primary-btn btn-hover w-100 text-center">
+                                                            <button type="submit" class="main-btn primary-btn btn-hover w-100 text-center" id="btnIniciarSesion" name="btnIniciarSesion">
                                                                 Procesar
                                                             </button>
                                                         </div>
