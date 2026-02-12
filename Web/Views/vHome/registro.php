@@ -1,7 +1,8 @@
 
 
 <?php
-include_once "../layoutExterno.php";
+include_once $_SERVER["DOCUMENT_ROOT"] . "/MN_SAM/Web/Views/layoutExterno.php";
+include_once $_SERVER["DOCUMENT_ROOT"] . "/MN_SAM/Web/Controllers/HomeController.php"
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -53,8 +54,13 @@ mostrarCss();
                 </div>
               </div>
             </div>
-            <!-- end col -->
+
             <div class="col-lg-6">
+              <?php
+              if(isset($_POST["Mensaje"])){
+                  echo $_POST["Mensaje"];
+              }
+              ?>
               <div class="signup-wrapper">
                 <div class="form-wrapper">
                   <h6 class="mb-15">Crear Cuenta</h6>
@@ -62,33 +68,33 @@ mostrarCss();
                     Start creating the best possible user experience for you
                     customers.
                   </p>
-                  <form action="#">
+                  <form action="" method="POST">
                     <div class="row">
                       <div class="col-12">
                         <div class="input-style-1">
                           <label>Identificación</label>
-                          <input type="text" placeholder="Identificación" />
+                          <input type="text" placeholder="Identificación" id="Identificación" name="Identificación"/>
                         </div>
                       </div>
                       <!-- end col -->
                       <div class="col-12">
                         <div class="input-style-1">
                           <label>Nombre</label>
-                          <input type="email" placeholder="Nombre" />
+                          <input type="email" placeholder="Nombre" id="Nombre" name="Nombre" />
                         </div>
                       </div>
                       <!-- end col -->
                       <div class="col-12">
                         <div class="input-style-1">
                           <label>Contraseña</label>
-                          <input type="password" placeholder="Contraseña" />
+                          <input type="password" placeholder="Password" id="Password" name="Password" />
                         </div>
                       </div>
                       <!-- end col -->
                       <!-- end col -->
                       <div class="col-12">
                         <div class="button-group d-flex justify-content-center flex-wrap">
-                          <button class="main-btn primary-btn btn-hover w-100 text-center">
+                          <button type="submit" class="main-btn primary-btn btn-hover w-100 text-center" id="btnRegistrar" name="btnRegistrar">
                             Procesar
                           </button>
                         </div>

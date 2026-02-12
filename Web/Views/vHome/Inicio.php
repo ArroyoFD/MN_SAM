@@ -1,5 +1,5 @@
 <?php
-include_once "../layout.php";
+include_once $_SERVER["DOCUMENT_ROOT"] . "/MN_SAM/Web/Views/layout.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">

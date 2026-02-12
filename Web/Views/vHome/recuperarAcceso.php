@@ -1,7 +1,7 @@
 
 
 <?php
-include_once "../layoutExterno.php";
+include_once $_SERVER["DOCUMENT_ROOT"] . "/MN_SAM/Web/Views/layoutExterno.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
