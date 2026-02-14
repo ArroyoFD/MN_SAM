@@ -1,5 +1,5 @@
 <?php
-
+include_once $_SERVER["DOCUMENT_ROOT"] . "/MN_SAM/Web/Models/HomeModel.php";
 if(isset($_POST["btnRegistrar"])){
 
     //Validaciones
@@ -7,9 +7,10 @@ if(isset($_POST["btnRegistrar"])){
     $nombre= $_POST["Nombre"];
     $identificacion= $_POST["Identificacion"];
     $password= $_POST["Password"];
-    $result= RegistrarModel($nombre,$identificacion,$password);
 
-    if($result){
+    $result= RegistrarModel($identificacion,$nombre,$password);
+
+    if ($result) {
         header("Location: ../../Views/vHome/login.php");
         exit;
     }else{
@@ -24,7 +25,7 @@ if(isset($_POST["btnIniciarSesion"])){
     $password= $_POST["Password"];
     $result= IniciarSesionModel($identificacion,$password);
 
-    if($result){
+    if ($result) {
         header("Location: ../../Views/vHome/Inicio.php");
         exit;
     }else{
