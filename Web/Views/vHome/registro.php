@@ -80,7 +80,7 @@ mostrarCss();
                       <div class="col-12">
                         <div class="input-style-1">
                           <label>Nombre</label>
-                          <input type="email" placeholder="Nombre" id="Nombre" name="Nombre" />
+                          <input type="text" placeholder="Nombre" id="Nombre" name="Nombre" />
                         </div>
                       </div>
                       <!-- end col -->
