@@ -73,7 +73,7 @@ mostrarCss();
                       <div class="col-12">
                         <div class="input-style-1">
                           <label>Identificación</label>
-                          <input type="text" placeholder="Identificación" id="Identificación" name="Identificación"/>
+                          <input type="text" placeholder="Identificacion" id="Identificacion" name="Identificacion"/>
                         </div>
                       </div>
                       <!-- end col -->
